@@ -17,10 +17,10 @@ import moment from 'moment-timezone'
 import { group } from 'console'
 import PhoneNumber from 'awesome-phonenumber'
 /*============= WAKTU =============*/
-let wibh = moment.tz('Asia/Makassar').format('HH')
-    let wib = moment.tz('Asia/Makassar').format('HH:mm:ss')
-    let wibm = moment.tz('Asia/Makassar').format('mm')
-    let wibs = moment.tz('Asia/Makassar').format('ss')
+let wibh = moment.tz('Asia/Jakarta').format('HH')
+    let wib = moment.tz('Asia/Jakarta').format('HH:mm:ss')
+    let wibm = moment.tz('Asia/Jakarta').format('mm')
+    let wibs = moment.tz('Asia/Jakarta').format('ss')
     let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
     
     let d = new Date(new Date + 3600000)
